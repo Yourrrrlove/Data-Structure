@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
+//BF算法时间复杂度为O(mn)，因为i=i-j+2回溯
 int test(string &a, string &b)
 {
 	int i = 0;
