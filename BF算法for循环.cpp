@@ -45,7 +45,7 @@ int test2(string& a, string& b)
 			}
 		}
 	}
-	if (j >= b.size()-1)
+	if (j >= b.size())
 	{
 		return i - b.size();
 	}
